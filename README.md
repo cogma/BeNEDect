@@ -1,4 +1,4 @@
-# BeNEDect
+# BeNEDect (Benchmark for Numerical Error Detection task)
 
 ## Introduction
 This repository contains our BeNEDect dataset, a Benchmark for Numerical Error Detection task, which is introduced in the following research paper:
