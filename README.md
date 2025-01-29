@@ -15,8 +15,28 @@ Development of Numerical Error Detection Tasks to Analyze the Numerical Capabili
 
 
 ## Example
-
-
+```
+{
+        "id": 0,
+        "dataset": "Numeracy_600K_article_title",
+        "passage_id": "100071",
+        "correct_passage": "Foster/biological Parents: Did you know? Define 'child abuse' part 4 of 4",
+        "error_passage": "Foster/biological Parents: Did you know? Define 'child abuse' part 8 of 4",
+        "target_start_char": 67,
+        "target_end_char": 68,
+        "correct_number": "4",
+        "error_number": "8",
+        "operation": "*2",
+        "error_annotation": {
+            "Improper Data": 0,
+            "Undetectable Error": 0,
+            "Type Error": 0,
+            "Factual Error": 0,
+            "Error in Number Relationships": 3,
+            "Anomaly": 0
+        }
+}
+```
 
 ## Licence
 BeNEDect is released under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
