@@ -6,6 +6,27 @@ This repository contains our BeNEDect dataset, a Benchmark for Numerical Error D
 Development of Numerical Error Detection Tasks to Analyze the Numerical Capabilities of Language Models (Sakamoto et al., COLING 2025)
 
 
+
+## Completing Missing Data
+Initially, the raw dataset must be downloaded from the link below.
+- [MCTest](https://mattr1.github.io/mctest/data.html)
+- [RACE](https://www.cs.cmu.edu/~glai1/data/race/)
+- [ReClor](https://whyu.me/reclor/#download)
+
+The data is subsequently arranged as follows:
+- ```raw_data/mctest/mc{160,500}.train.tsv```
+- ```raw_data/race/train/{middle,high}/*.txt```
+- ```raw_data/reclor_data/train.json```
+
+Then run:
+```
+python collect_missing_part.py
+```
+
+The complete data will be available in a file named ```BeNEDect_all.json```.
+
+
+
 ## Contents
 
 
