@@ -7,6 +7,10 @@ Development of Numerical Error Detection Tasks to Analyze the Numerical Capabili
 
 
 
+## Contents
+
+
+
 ## Completing Missing Data
 Initially, the raw dataset must be downloaded from the link below.
 - [MCTest](https://mattr1.github.io/mctest/data.html)
@@ -24,10 +28,6 @@ python collect_missing_part.py
 ```
 
 The complete data will be available in a file named ```BeNEDect_all.json```.
-
-
-
-## Contents
 
 
 
